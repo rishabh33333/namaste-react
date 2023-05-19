@@ -1,3 +1,42 @@
-#heading{
-    color:red;
+.heading, .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading .logo{
+    height:90px;
+}
+
+.Rest-card img{
+    height:150px;
+    width: 100%;
+}
+
+.nav-bar , .rest-card-footer{
+    display:flex;
+    list-style-type: none;
+
+    
+}
+
+.container{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.Rest-card{
+
+    border: black solid 2px;
+    /* padding: 10px; */
+    background-color: #f0f0f0;
+    margin: 10px 10px;
+    max-width: 300px;
+    
+}
+
+
+.nav-bar li{
+    padding:5px;
+}
+.Rest-card span{
+    padding-right: 25px;
 }
